@@ -9,7 +9,8 @@ console.log("clicked")
 // once button clicked, page changes to word game block
 
 var  word = "";
-var wordGuess = [];
+var wordGuess = []; //declare wordGuess array assigned empty array
+wordGuess.push("")
 var wrongGuess = [];
 var 
 
