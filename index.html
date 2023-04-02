@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Word Guess Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -14,9 +15,13 @@
                 <h1>Welcome to Word Guess Game!</h1>
                 <h2>Press Play when you are ready</h2>
                 <div id="startButton"><button>Start playing</button></div>
-                <div id="wordcontainer"></div>
-                <input type="text" class="typing-input" maxlength="1" />
-                <h5 id="timer">Time left in seconds</h5>
+                <section id="wordcontainer">
+
+                    
+                 <p class="dashes"><span id="dashes"></span></p></section> 
+
+                <h5 class="timer"></h5>
+                <h5>Time left in seconds</h5>
                 <p id="rightGuess"></p>
                 <p id="wrongGuess"></p>
 
